@@ -1,0 +1,32 @@
+{
+  "name": "specto-js",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for Specto log management server API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotshell-org/specto-js.git"
+  },
+  "keywords": [
+    "specto",
+    "log",
+    "sdk",
+    "api",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "typescript": "^5.0.0"
+  }
+}
