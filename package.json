@@ -19,8 +19,8 @@
     "api",
     "typescript"
   ],
-  "author": "",
-  "license": "MIT",
+  "author": "Dotshell",
+  "license": "GNU General Public License V3.0",
   "dependencies": {
     "axios": "^1.6.0",
     "zod": "^3.22.0"
